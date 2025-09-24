@@ -1,0 +1,36 @@
+# Contact List App
+
+A simple web-based **Contact List Application** built with **HTML, CSS, and JavaScript**.
+It allows users to:
+
+- Add new contacts (name & phone number).
+- Search contacts (case-insensitive).
+- View counts of contacts grouped by the first letter of the name.
+
+---
+
+## Features
+
+- **Add Contact**: Enter name and phone number to add a new contact.
+- **Search Contacts**: Filter contacts by typing in the search box.
+- **Dynamic Counts**: Automatically shows counts of contacts grouped by their first letter.
+- **Responsive UI**: Clean and modern design using CSS.
+
+---
+
+## Technologies Used
+
+- **HTML5** – Structure of the app
+- **CSS3** – Styling and layout
+- **JavaScript (ES6)** – Functionality (DOM manipulation, event handling, search, counts)
+
+---
+
+### Project Structure
+
+```
+│── index.html # Main HTML file
+│── style.css # Styling
+│── main.js # JavaScript logic
+└── README.md # Project documentation
+```
