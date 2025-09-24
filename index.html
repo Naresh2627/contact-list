@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact List App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>  Contact List</h2>
+
+    <!-- Add Contact Form -->
+    <form id="addContactForm">
+      <input type="text" id="nameInput" placeholder="Enter name" required>
+      <input type="number" id="phoneInput" placeholder="Enter phone number" required>
+      <button type="submit">Add Contact</button>
+    </form>
+
+    <!-- Search -->
+    <input type="text" id="searchBox" placeholder="Search contacts...">
+
+    <h3>Contacts</h3>
+    <ul id="contactList"></ul>
+
+    <div class="counts">
+      <h3>Counts by First Letter</h3>
+      <ul id="letterCounts"></ul>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
