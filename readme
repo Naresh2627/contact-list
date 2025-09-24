@@ -30,5 +30,5 @@ Project Structure
 
 │── index.html # Main HTML file
 │── style.css # Styling
-│── main.js # JavaScript logic
+│── main.js # JS logic
 └── README.md # Project documentation
